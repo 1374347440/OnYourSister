@@ -22,9 +22,8 @@
 
 ### 项目截图如下：
 
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG1.PNG "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG2.PNG "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG3.PNG "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG4.PNG "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG5.PNG "踩你妹微信小游戏截图")
-
+<img src="https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG1.PNG" width="350" height="622" alt="踩你妹微信小游戏截图"/>
+<img src="https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG2.PNG" width="350" height="622" alt="踩你妹微信小游戏截图"/>
+<img src="https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG3.PNG" width="350" height="622" alt="踩你妹微信小游戏截图"/>
+<img src="https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG4.PNG" width="350" height="622" alt="踩你妹微信小游戏截图"/>
+<img src="https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG5.PNG" width="350" height="622" alt="踩你妹微信小游戏截图"/>
