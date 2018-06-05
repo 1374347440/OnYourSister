@@ -45,6 +45,7 @@ cc.Class({
                             if (getres.KVDataList[0].value < score) {
                                 return;
                             }
+                            score = score.toFixed(3);
                         } else {
                             if (getres.KVDataList[0].value > score) {
                                 return;

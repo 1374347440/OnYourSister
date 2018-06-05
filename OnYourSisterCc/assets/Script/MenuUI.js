@@ -25,6 +25,8 @@ cc.Class({
     },
 
     start() {
+        cc.log("19.953">10.001);
+        cc.log(Number("9.953")>Number("1.001"));
         if (CC_WECHATGAME) {
             if (GameConfig.GameClubButton != null) {
                 GameConfig.GameClubButton.show();

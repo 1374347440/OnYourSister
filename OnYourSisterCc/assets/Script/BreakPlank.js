@@ -14,6 +14,7 @@ var BreakPlank = cc.Class({
     ctor: function (numbers, CardSpriteX, CardSpriteY) {
         this.initUI(numbers, CardSpriteX, CardSpriteY);
         this.on(cc.Node.EventType.TOUCH_START, this.onTouchBegan, this);
+        // this.on(cc.Node.EventType.TOUCH_MOVE, this.onTouchMove, this);
         this.on(cc.Node.EventType.TOUCH_END, this.onTouchEnded, this);
     },
     initUI(numbers, CardSpriteX, CardSpriteY) {
@@ -57,6 +58,7 @@ var BreakPlank = cc.Class({
             }
             return;
         }
+        this.isMove = false;
     },
     onTouchEnded(event) {
         this.endY = this.firstY - event.touch.getLocation().y;
@@ -77,7 +79,8 @@ var BreakPlank = cc.Class({
             return;
         }
         if (this.cardArr[this.showCardNum].getNumber() == 0) {
-            if (!(this.endY > GameConfig.CARD_WIDTH / 2.0)) {
+            // if (!(this.endY > GameConfig.CARD_WIDTH / 2.0)) {
+            if (Math.abs(this.endY) < 10) {
                 if (GameConfig.SUN_MENU_NUM != GameConfig.SunMenuNum.SunMenuNum2) {
                     this.rotatePlank();
                 }
@@ -86,7 +89,8 @@ var BreakPlank = cc.Class({
                 GameConfig.GameScene.gameOverScene(false);
             }
         } else if (this.cardArr[this.showCardNum].getNumber() == 1) {
-            if (this.endY > GameConfig.CARD_WIDTH / 2.0) {
+            // if (this.endY > GameConfig.CARD_WIDTH / 2.0) {
+            if (this.endY > 10) {
                 if (GameConfig.SUN_MENU_NUM != GameConfig.SunMenuNum.SunMenuNum2) {
                     this.rotatePlank();
                 }

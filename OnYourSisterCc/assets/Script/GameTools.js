@@ -144,11 +144,11 @@ var GameTools = {
             cc.log("移除排行榜数据。");
         }
     }
-    , submitScore() { //提交得分
-        let score = GameConfig.GAME_CARD_CLICK_NUM;
-        if(GameConfig.SUN_MENU_NUM == GameConfig.SunMenuNum.SunMenuNum1){
-            score = GameConfig.GAME_START_TIME.toFixed(3);
-        }
+    , submitScore(score) { //提交得分
+        // let score = GameConfig.GAME_CARD_CLICK_NUM;
+        // if(GameConfig.SUN_MENU_NUM == GameConfig.SunMenuNum.SunMenuNum1){
+        //     score = GameConfig.GAME_START_TIME.toFixed(3);
+        // }
         if (CC_WECHATGAME) {
             window.wx.postMessage({
                 messageType: 3,

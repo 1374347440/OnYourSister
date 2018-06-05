@@ -38,9 +38,9 @@ cc.Class({
         let gameDate = GameTools.getItemByLocalStorage(gameDataName, 0);
         if (GameConfig.SUN_MENU_NUM == GameConfig.SunMenuNum.SunMenuNum1) {
             if (GameConfig.IS_GAME_OVER) {
-                GameTools.submitScore(); //提交得分
                 if (GameConfig.GAME_START_TIME < gameDate || gameDate == 0) {
                     GameTools.playSimpleAudioEngine(2);
+                    gameDate = GameConfig.GAME_START_TIME;
                     GameTools.setItemByLocalStorage(gameDataName, GameConfig.GAME_START_TIME);
                     this.newGameScoreNode.active = true;
                 } else {
@@ -49,6 +49,7 @@ cc.Class({
                 }
                 this.scoreLabel.node.active = true;
                 this.scoreLabel.string = GameConfig.GAME_START_TIME.toFixed(3) + "''";
+                GameTools.submitScore(gameDate); //提交得分
             } else {
                 this.gameOverSprite.active = true;
                 this.bestScoreLabel.node.getParent().active = true;
@@ -56,9 +57,9 @@ cc.Class({
             }
             this.SecondModeSprite.spriteFrame = GameTools.love2048FrameCache.getSpriteFrame("SunMenuNum1");
         } else if (GameConfig.SUN_MENU_NUM == GameConfig.SunMenuNum.SunMenuNum2) {
-            GameTools.submitScore(); //提交得分
             if (GameConfig.GAME_CARD_CLICK_NUM > gameDate) {
                 GameTools.playSimpleAudioEngine(2);
+                gameDate = GameConfig.GAME_CARD_CLICK_NUM;
                 GameTools.setItemByLocalStorage(gameDataName, GameConfig.GAME_CARD_CLICK_NUM);
                 this.newGameScoreNode.active = true;
             } else {
@@ -68,11 +69,12 @@ cc.Class({
             this.scoreLabel.node.active = true;
             this.scoreLabel.string = GameConfig.GAME_CARD_CLICK_NUM;
             this.SecondModeSprite.spriteFrame = GameTools.love2048FrameCache.getSpriteFrame("SunMenuNum2");
+            GameTools.submitScore(gameDate); //提交得分
         } else if (GameConfig.SUN_MENU_NUM == GameConfig.SunMenuNum.SunMenuNum3) {
             if (GameConfig.IS_GAME_OVER) {
-                GameTools.submitScore(); //提交得分
                 if (GameConfig.GAME_CARD_CLICK_NUM > gameDate) {
                     GameTools.playSimpleAudioEngine(2);
+                    gameDate = GameConfig.GAME_CARD_CLICK_NUM;
                     GameTools.setItemByLocalStorage(gameDataName, GameConfig.GAME_CARD_CLICK_NUM);
                     this.newGameScoreNode.active = true;
                 } else {
@@ -81,6 +83,7 @@ cc.Class({
                 }
                 this.scoreLabel.node.active = true;
                 this.scoreLabel.string = GameConfig.GAME_CARD_CLICK_NUM;
+                GameTools.submitScore(gameDate); //提交得分
             } else {
                 this.gameOverSprite.active = true;
                 this.bestScoreLabel.node.getParent().active = true;
