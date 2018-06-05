@@ -1,7 +1,7 @@
 #### 项目简介：
-**gitee地址：**[wxGameRank](https://gitee.com/xwintop/OnYourSister)
+**gitee地址：**[OnYourSister](https://gitee.com/xwintop/OnYourSister)
 
-**GitHub地址：**[wxGameRank](https://github.com/864381832/OnYourSister)
+**GitHub地址：**[OnYourSister](https://github.com/864381832/OnYourSister)
 ### 踩你妹
 游戏操作非常简单，只需点击或滑动屏幕中的黑白圈即可，但是非常考验玩家反应速度和敏捷度，极其具有挑战性！简单好玩，根本不停不下来，想找虐，想挑战自我，就来试试吧！游戏分为左右手和双手三大模块，每个模块对应有三个模式：经典模式，以最快的速度到达终点；街机模式，你有能力得多少分就得多少分，没有任何限制，这也是最具挑战性的一个模式；禅模式，在15秒内看你能走几步！只需点击或滑动屏幕中的黑白圈即可，但是非常考验玩家反应速度和敏捷度，极其具有挑战性！简单好玩，想挑战自我，就来试试吧！
 
@@ -22,9 +22,9 @@
 
 ### 项目截图如下：
 
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG1.PND "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG2.PND "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG3.PND "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG4.PND "踩你妹微信小游戏截图")
-![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG5.PND "踩你妹微信小游戏截图")
+![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG1.PNG "踩你妹微信小游戏截图")
+![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG2.PNG "踩你妹微信小游戏截图")
+![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG3.PNG "踩你妹微信小游戏截图")
+![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG4.PNG "踩你妹微信小游戏截图")
+![输入图片说明](https://gitee.com/xwintop/OnYourSister/raw/master/images/IMG5.PNG "踩你妹微信小游戏截图")
 
